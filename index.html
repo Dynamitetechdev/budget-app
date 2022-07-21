@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
+</head>
+
+<body>
+    <div class="budget_wrapper">
+        <div class="left_side">
+            <h1>Budget App</h1>
+
+            <div class="budget_inputs mb">
+                <h2>Your Budget</h2>
+                <form>
+                <input type="number" placeholder="your budget" class="input_budget" >
+                <button type="submit" class="budget_btn">Add budget</button>
+                </form>
+            </div>
+            
+            <div class="expenses">
+                <form class="expenses_form">
+                    <h2>Name of your expenses</h2>
+                    <input type="text" class="expenses_name mb-2">
+
+                    <h2>Amount of the expenses</h2>
+                    <input type="number" class="expenses_amount">
+
+                    <button type="submit" class="add_expenses">Add Expenses</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="right_side">
+            <h1>Bugdet</h1>
+            <div class="budget_calculation">
+                <div class="budget_amount">
+                    <h2 class="your_budget">$0</h2>
+                    <h4>Budget</h4>
+                </div>
+                <div class="expenses">
+                    <h2 class="your_expenses">$0</h2>
+                    <h4>Expenses</h4>
+                </div>
+                <div class="main_balance">
+                    <h2 class="balance">$0</h2>
+                    <h4>Balance</h4>
+                </div>
+            </div>
+
+            <div class="expenses_list">
+                    <table>
+                        <tr>
+                            <th>Expenses Title</th>
+                            <th>Expense Value</th>
+                            <th></th>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

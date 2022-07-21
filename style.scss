@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+    font-weight: lighter;
+}
+
+.budget_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    height: 100vh;
+}
+.left_side{
+    padding: 3em;
+    margin: 20px;
+    background: #ffffff;
+}
+h1{
+   margin-bottom: 1em;
+   text-transform: uppercase;
+}
+h2{
+    margin: 15px 0 5px;
+    font-size: 20px;
+}
+input{
+    width: 100%;
+    height: 45px;
+    padding-left: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+input::placeholder{
+    font-size: 18px;
+    opacity: 0.7;
+}
+button{
+    height: 45px;
+    font-size: 15px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    background-color: rgb(48, 48, 246);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    padding: 0px 20px;
+    font-weight: 400;
+    font-family: "montserrat";
+}
+.mb{
+    margin-bottom: 30px;
+}
+.mb-2{
+    margin-bottom: 15px;
+}
+.right_side{
+    padding: 3em;
+    background: rgb(48, 48, 246);
+    border-radius: 10px;
+    margin: 20px;
+    color: #ffffff;
+}
+.budget_calculation{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center ;
+    background-color: blue;
+    margin-bottom: 3em;
+    padding: 2em;
+    border-radius: 10px;
+    h2{
+        font-size: 30px;
+        letter-spacing: 1px;
+        font-weight: lighter;
+    }
+    h4{
+        letter-spacing: 1px;
+    }
+
+}
+table{
+    width: 100%;
+    letter-spacing: 1px;
+    th{
+        font-size: 16px;
+        text-align: left;
+        padding-bottom: 2em;
+    }
+    td{
+        background-color: blue;
+        height: 30px;
+        font-size: 14px;
+        margin-bottom: 1em;
+
+
+    }
+    .remove_button{
+        cursor: pointer;
+    }
+}
